@@ -1,0 +1,112 @@
+*{
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.ms-8{
+    margin-left: 3rem !important; /* Custom left margin */
+  }
+  .mb-8 {
+    margin-bottom: 4rem !important; /* Custom bottom margin */
+  }
+.mt-10{
+  margin-top: 8rem;
+}
+.logo{
+  margin-left: 5rem;
+}
+ 
+  .first{
+    margin-top: 8rem;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+}
+.section{
+  margin: auto;
+}
+.inputemail{
+  border: none !important;
+  outline: none !important;
+}
+.tick{
+  width: 20px;
+  height: 20px;
+}
+.vl {
+  border-left: 2px solid black;
+  height: 100px;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+
+}
+.butnn:hover{
+color: white;
+background-color: black;
+}
+
+
+.iconback{
+  background-color: rgb(207, 177, 235);
+  width: 60px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.line{
+  border-left: 2px dashed red;
+  height: 100px;
+}
+.iconbox{
+  width: 5%;
+  height: 10%;
+}
+li,ul{
+  list-style: none;
+
+}
+.date{
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+
+}
+@media (max-width: 576px) {
+  .text-sm {
+    font-size: 0.8rem; /* Adjust as needed */
+  }
+  .iconbox{
+    width: 10%;
+    height: 10%;
+  }
+  .rt{
+    transform: rotate(90deg);
+  }
+  .first{
+    margin-top: 5rem;
+  }
+  .logo{
+    width: 40%;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .text-md {
+    font-size: 1rem; /* Adjust as needed */
+  }
+  .first{
+    margin-top: 3rem;
+  }
+}
+@media (min-width: 769px) {
+  .text-lg {
+    font-size: 1.2rem; /* Adjust as needed */
+  }
+}
+
